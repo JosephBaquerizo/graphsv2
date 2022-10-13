@@ -1,0 +1,25 @@
+/*
+.indicatorContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+*/
+
+.indicatorContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 1730px) {
+
+    .indicatorContainer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px 10px;
+        width: 100%;
+    }
+
+}

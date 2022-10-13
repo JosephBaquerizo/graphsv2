@@ -1,0 +1,15 @@
+.containerExpanded {
+  position: absolute;
+  left: 240px;
+  z-index: 1;
+  margin-left: 40px;
+  transition: all 0.5s ease;
+}
+
+.containerRetracted{
+  position: absolute;
+  left: 78px;
+  z-index: 1;
+  margin-left: 40px;
+  transition: all 0.5s ease;
+}

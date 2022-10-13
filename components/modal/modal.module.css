@@ -1,0 +1,85 @@
+.modalContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(61, 60, 60, 0.6);
+    z-index: 99;
+}
+
+.modal {
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    height: 25px;
+    width: 25px;
+    border-radius: 4px;
+}
+
+.closeBtn:hover {
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+}
+
+.closeBtn span {
+    color: black;
+}
+
+.title {
+    text-align: center;
+}
+
+.inputZone {
+    margin-top: 20px;
+}
+
+.parameter span {
+    color: black;
+}
+
+.input {
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.bottomSection {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: #11101d;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #11101d;
+}
+
+.button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

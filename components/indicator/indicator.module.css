@@ -1,0 +1,75 @@
+.indicator {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.value {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.green {
+    background-color: rgb(143, 202, 143);
+}
+
+.red {
+    background-color: rgb(197, 145, 145);
+}
+
+.blue {
+    background-color: rgb(143, 143, 194);
+}
+
+.purple {
+    background-color: rgb(196, 147, 196);
+}
+
+.greenTitle {
+    color: rgb(1, 77, 1);
+  }
+  
+.redTitle {
+color: rgb(104, 4, 4);
+}
+
+.blueTitle {
+color: rgb(1, 1, 102);
+}
+
+.purpleTitle {
+color: rgb(75, 1, 75);
+}
+
+.title {
+    color: rgb(65, 65, 65);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.description {
+    text-align: center;
+    color: rgb(114, 114, 114);
+}
