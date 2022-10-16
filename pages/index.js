@@ -56,7 +56,7 @@ export default function Home() {
                                 <DoughnutGraph visibility={state.weatherData.visibility}/>
                             </div>
                             <Graph 
-                                data={state.weatherData["temperature"]["data"]}
+                                data={state.weatherData[state.infoContent]["data"]}
                                 bColor={state.weatherData["".concat(state.infoContent)]["bColor"]}
                                 bgColor={state.weatherData["".concat(state.infoContent)]["bgColor"]}
                                 labels={range(state.weatherData.cnt)}
