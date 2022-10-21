@@ -32,7 +32,7 @@ export default function Indicator({ color, icon, title, value, units }) {
     const getDescription = (title) => {
         switch (title) {
             case "average":
-                return "The average of the last query values"
+                return "The average of the last queries"
             case "max":
                 return "The max value among the queries"
             case "min":

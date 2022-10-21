@@ -73,7 +73,7 @@ export const stuctureResponse = (response) => {
             "data": temperatureArray,
             "bColor": "#ff2e2e",
             "bgColor": "#ffcccb",
-            "label": "Temperature (K)"
+            "label": "Temperature (K)",
         },
         "sensation": {
             "name": "sensation",

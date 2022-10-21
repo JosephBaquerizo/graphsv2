@@ -2,27 +2,43 @@
     position: relative;
     display: flex;
     justify-content: center;
-    height: 320px;
-    width: 400px;
+    height: 220px;
+    width: 300px;
     background-color: white;
     padding: 10px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-left: 36px;
 }
 
 .doughnutContainer {
-    width: 280px;
-    height: 280px;
+    width: 180px;
+    height: 180px;
 }
 
 .visibilityNumber {
     position: absolute;
-    top: calc(50% - 25px);
-    left: calc(50% - 30px);
+    top: calc(50%);
+    left: calc(50%);
+    transform: translate(-50%, -40%);
+    font-weight: 600;
 }
 
-.visibilityNumber {
-    font-size: 22px;
-    font-weight: 600;
+@media screen and (max-width: 1290px) {
+    .doughnut {
+        height: 180px;
+        width: 220px;
+        min-width: 220px;
+    }
+
+    .doughnutContainer {
+        width: 120px;
+        height: 120px
+    }
+
+    .visibilityNumber {
+        font-size: 10px;
+        transform: translate(-50%, -60%);
+        font-weight: normal;
+    }
+
 }

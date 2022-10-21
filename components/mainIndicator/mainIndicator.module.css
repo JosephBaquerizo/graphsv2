@@ -1,6 +1,6 @@
 .mainIndicator {
-    width: 400px;
-    height: 320px;
+    width: 300px;
+    height: 220px;
     background-color: white;
     border-radius: 10px;
     padding: 10px;
@@ -32,7 +32,7 @@
 }
 
 .value {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 600;
     color: rgb(1, 1, 44);
 }
@@ -46,4 +46,28 @@
 .weather {
     font-style: italic;
     color: grey;
+}
+
+@media screen and (max-width: 1290px) {
+    .mainIndicator {
+        height: 180px;
+        width: 220px;
+        min-width: 220px;
+    }
+
+    .place {
+        font-size: 12px;
+    }
+
+    .value {
+        font-size: 22px;
+    }
+
+    .timezone {
+        font-size: 12px;
+    }
+
+    .weather {
+        font-size: 12px;
+    }
 }

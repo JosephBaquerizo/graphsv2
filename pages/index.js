@@ -49,12 +49,9 @@ export default function Home() {
                 {
                     state.weatherData
                     ?
-                    <section className={styles.overall}>
-                        <div className={styles.innerOverall}>
-                            <div className={styles.pairGraph}>
-                                <MainIndicator />
-                                <DoughnutGraph visibility={state.weatherData.visibility}/>
-                            </div>
+                    <section className={styles.innerOverall}>
+                            <MainIndicator />
+                            <DoughnutGraph visibility={state.weatherData.visibility}/>
                             <Graph 
                                 data={state.weatherData[state.infoContent]["data"]}
                                 bColor={state.weatherData["".concat(state.infoContent)]["bColor"]}
@@ -62,7 +59,6 @@ export default function Home() {
                                 labels={range(state.weatherData.cnt)}
                                 label={state.weatherData["".concat(state.infoContent)]["label"]}
                             />
-                        </div>
                     </section>
                     :
                     <p>No Data</p>

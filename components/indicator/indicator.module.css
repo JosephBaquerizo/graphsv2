@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 300px;
+    width: 250px;
     height: 350px;
     padding: 10px;
     border-radius: 10px;
@@ -72,4 +72,28 @@ color: rgb(75, 1, 75);
 .description {
     text-align: center;
     color: rgb(114, 114, 114);
+}
+
+@media screen and (max-width: 1290px) {
+    .indicator {
+        width: 180px;
+        height: 250px;
+    }
+
+    .iconContainer {
+        height: 30px;
+        width: 30px;
+    }
+
+    .value {
+        font-size: 22px;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
 }
