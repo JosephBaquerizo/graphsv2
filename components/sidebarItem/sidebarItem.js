@@ -16,15 +16,15 @@ export default function SidebarItem({ name, icon }) {
     }
 
     return (
-        <div className={state.sidebar? cls(styles.center, styles.item) : styles.item} onClick={() => changeContent(name)}>
-            <div className={state.sidebar ? styles.indicator : styles.hide}>
+        <div className={state.sidebar? styles.item : cls(styles.center, styles.item)} onClick={() => changeContent(name)}>
+            <div className={state.sidebar ? styles.hide : styles.indicator}>
                 <span>{capitalizeFunc(name)}</span>
             </div>
             <div className={styles.innerItem}>
                 {
                     icon
                 }
-                <span className={state.sidebar ? styles.hide : styles.itemName}>{capitalizeFunc(name)}</span>
+                <span className={state.sidebar ? styles.itemName : styles.hide}>{capitalizeFunc(name)}</span>
             </div>
         </div>
     );

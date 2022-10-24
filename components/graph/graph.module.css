@@ -16,3 +16,10 @@ width: 575px;
         height: 180px;
     }
 }
+
+@media screen and (max-width: 530px) {
+    .graph {
+        width: 220px;
+        height: 120px;
+    }
+}

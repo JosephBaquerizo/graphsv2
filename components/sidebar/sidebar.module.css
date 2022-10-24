@@ -7,7 +7,7 @@
     z-index: 2;
     background-color: #11101d;
     padding: 16px 14px;
-    transition: all 0.5s ease;
+    transition: all 0s ease;
 }
 
 .active {
@@ -18,7 +18,7 @@
     width: 240px;
     background-color: #11101d;
     padding: 16px 14px;
-    transition: all 0.5s ease;
+    transition: all 0s ease;
 }
 
 .logoSection {

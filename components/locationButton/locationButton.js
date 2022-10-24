@@ -9,10 +9,10 @@ export default function LocationButton({ modalFunc }) {
     const { state } = useContext(StoreContext);
 
     return (
-        <div className={state.sidebar? cls(styles.center, styles.item) : styles.item} onClick={modalFunc}>
+        <div className={state.sidebar? styles.item : cls(styles.center, styles.item)} onClick={modalFunc}>
             <div className={styles.innerItem}>
                 <BsFillGeoAltFill className={styles.icon}/>
-                <span className={state.sidebar ? styles.hide : styles.itemName}>Set Location</span>
+                <span className={state.sidebar ? styles.itemName : styles.hide}>Set Location</span>
             </div>
         </div>
     )

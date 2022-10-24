@@ -11,6 +11,14 @@
     padding-right: 10px;
 }
 
+.itemSelected {
+    background-color: white;
+}
+
+.nameSelected {
+    color: #11101d;
+}
+
 .itemName {
     margin-left: 20px;
 }

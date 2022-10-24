@@ -1,4 +1,6 @@
 .containerExpanded {
+  padding-left: 20px;
+  padding-right: 20px;
   z-index: 1;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -7,6 +9,8 @@
 }
   
 .containerRetracted{
+  padding-left: 20px;
+  padding-right: 20px;
   z-index: 1;
   padding-top: 10px;
   padding-bottom: 10px;

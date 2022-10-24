@@ -9,12 +9,12 @@
     border-radius: 12px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: white;
+    background-color: grey;
 }
 
 .itemName {
     margin-left: 20px;
-    color: #11101d;
+    color: white;
     white-space: nowrap;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .icon {
-    color: #11101d;
+    color: white;
     height: 20px;
     width: 20px;
 }
